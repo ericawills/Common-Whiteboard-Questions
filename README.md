@@ -70,7 +70,7 @@ const fizzBuzz = num => {
 ```
 The function above simply makes the required tests using conditional statements and logs out the expected output. What you need to pay attention to in this challenge is the order of the if … else statements. Start with the double condition first (&&) and end with the case where no multiples are found. This way, you’ll be able to cover all bases.
 
-#3 Anagram
+## Anagram
 
 > A word is an anagram of another word if both use the same letters in the same quantity, but arranged differently.
 
@@ -80,6 +80,8 @@ Understanding the challenge
 * consider only characters, not spaces or punctuation. 
 
 ###### Solution
+
+```javascript
 
 const buildCharObject = str => {
   const charObj = {}
